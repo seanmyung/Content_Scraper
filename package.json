@@ -1,0 +1,17 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "contents scraper from a web browser",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper.js"
+  },
+  "author": "sean myung",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fast-csv": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
